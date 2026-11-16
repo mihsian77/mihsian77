@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="780" viewBox="0 0 390 780" role="img" aria-labelledby="title desc">
+<title id="title">MOON BEAT — mobile profile</title><desc id="desc">Compact neon rhythm-game profile for moon279 with three project tracks and collaboration controls.</desc>
+<defs>
+ <linearGradient id="cab" x2="1" y2="1"><stop stop-color="#232442"/><stop offset=".55" stop-color="#0d0f22"/><stop offset="1" stop-color="#050610"/></linearGradient>
+ <linearGradient id="stage" x2="0" y2="1"><stop stop-color="#0b071c"/><stop offset=".62" stop-color="#251046"/><stop offset="1" stop-color="#06162b"/></linearGradient>
+ <linearGradient id="lane" x2="0" y2="1"><stop stop-color="#65e6ff" stop-opacity=".12"/><stop offset="1" stop-color="#ff5cbc" stop-opacity=".05"/></linearGradient>
+ <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 0H4" stroke="#000" stroke-width="1" opacity=".18"/></pattern>
+ <pattern id="tiny" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="4" cy="4" r="1" fill="#98f4ff" opacity=".42"/></pattern>
+ <clipPath id="screen"><rect x="18" y="24" width="354" height="622" rx="16"/></clipPath>
+</defs>
+<rect width="390" height="780" fill="#04050a"/>
+<rect x="6" y="6" width="378" height="768" rx="28" fill="url(#cab)" stroke="#4b527d" stroke-width="2"/><rect x="14" y="14" width="362" height="752" rx="23" fill="none" stroke="#7f86b5" stroke-opacity=".22"/>
+<rect x="14" y="14" width="362" height="642" rx="22" fill="#02040b" stroke="#606894" stroke-width="2"/>
+<g clip-path="url(#screen)">
+<rect x="18" y="24" width="354" height="622" fill="url(#stage)"/><rect x="18" y="24" width="354" height="622" fill="url(#tiny)" opacity=".32"/>
+<g transform="translate(195 226)" fill="none" stroke="#ff5cbc"><circle r="42" opacity=".4"><animate attributeName="r" values="26;170;26" dur="4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".45;.02;.45" dur="4s" repeatCount="indefinite"/></circle></g>
+<!-- header -->
+<rect x="28" y="34" width="334" height="34" rx="6" fill="#050713" opacity=".9" stroke="#646c99"/><text x="40" y="56" fill="#73ffd2" font-family="monospace" font-size="11">1UP</text><text x="75" y="56" fill="#fff" font-family="monospace" font-size="13" font-weight="700">moon279</text><text x="212" y="56" fill="#ffd478" font-family="monospace" font-size="11">STAGE 06</text><text x="300" y="56" fill="#fd84bf" font-family="monospace" font-size="11">♥♥</text>
+<!-- title -->
+<text x="30" y="103" fill="#fff" font-family="monospace" font-size="34" font-weight="900">MOON BEAT</text><text x="31" y="123" fill="#ffd478" font-family="monospace" font-size="9" letter-spacing="1.5">ANDROID EMULATION / SYNTH CIRCUIT</text>
+<!-- lane field -->
+<rect x="28" y="138" width="242" height="282" fill="#07061a" stroke="#4f3d85" opacity=".82"/>
+<g fill="url(#lane)"><rect x="33" y="143" width="45" height="272"/><rect x="82" y="143" width="45" height="272"/><rect x="131" y="143" width="45" height="272"/><rect x="180" y="143" width="45" height="272"/><rect x="229" y="143" width="36" height="272"/></g>
+<g stroke="#6f5aa8"><path d="M78 143V415M127 143V415M176 143V415M225 143V415"/></g>
+<rect x="32" y="367" width="234" height="38" fill="#fff" opacity=".05"/><path d="M32 388H266" stroke="#fff" stroke-width="1.5"/><text x="37" y="401" fill="#fff" font-family="monospace" font-size="8">HIT</text>
+<!-- notes loops offset so there are notes at t=0 -->
+<g><animateTransform attributeName="transform" type="translate" values="0 -278;0 279" dur="2.4s" repeatCount="indefinite"/><rect x="41" y="154" width="28" height="12" rx="2" fill="#65e6ff" stroke="#fff" stroke-width="1"/><rect x="139" y="160" width="28" height="12" rx="2" fill="#ff77c8" stroke="#fff" stroke-width="1"/><rect x="237" y="169" width="20" height="12" rx="2" fill="#b9a6ff" stroke="#fff" stroke-width="1"/><rect x="90" y="188" width="28" height="12" rx="2" fill="#73ffd2" stroke="#fff" stroke-width="1"/><rect x="188" y="201" width="28" height="12" rx="2" fill="#ffd478" stroke="#fff" stroke-width="1"/></g>
+<g><animateTransform attributeName="transform" type="translate" values="0 -556;0 128" dur="2.4s" repeatCount="indefinite"/><rect x="41" y="154" width="28" height="12" rx="2" fill="#65e6ff" stroke="#fff" stroke-width="1"/><rect x="139" y="180" width="28" height="12" rx="2" fill="#ff77c8" stroke="#fff" stroke-width="1"/><rect x="237" y="190" width="20" height="12" rx="2" fill="#b9a6ff" stroke="#fff" stroke-width="1"/><rect x="90" y="210" width="28" height="12" rx="2" fill="#73ffd2" stroke="#fff" stroke-width="1"/><rect x="188" y="230" width="28" height="12" rx="2" fill="#ffd478" stroke="#fff" stroke-width="1"/></g>
+<!-- combo -->
+<g transform="translate(149 232)" text-anchor="middle"><text fill="#fff" font-family="monospace" font-size="40" font-weight="900">48</text><text y="19" fill="#ffd478" font-family="monospace" font-size="13" font-weight="700">COMBO</text><text y="35" fill="#ff87bd" font-family="monospace" font-size="9">PERFECT ×12</text></g>
+<!-- signal panel -->
+<rect x="278" y="138" width="80" height="104" rx="5" fill="#060715" stroke="#59568c"/><text x="288" y="156" fill="#ffd478" font-family="monospace" font-size="9">SIGNAL</text><g stroke="#73ffd2" stroke-width="1.4"><path d="M290 214V194M298 214V185M306 214V200M314 214V179M322 214V204M330 214V189M338 214V195M346 214V181"/></g>
+<text x="288" y="230" fill="#fff" font-family="monospace" font-size="9">AUTO</text>
+<!-- track list -->
+<text x="30" y="442" fill="#ffd478" font-family="monospace" font-size="10">SELECT TRACK</text>
+<g font-family="monospace"><g transform="translate(28 450)"><rect width="330" height="48" rx="4" fill="#251139" stroke="#ffd478" stroke-width="2"/><path d="M13 15l10 9-10 9z" fill="#ffd478"/><text x="35" y="20" fill="#fff" font-size="14" font-weight="700">WINLATOR PULSE</text><text x="35" y="37" fill="#ffd478" font-size="9">TECHNO / MULTI-CONTAINER</text></g><g transform="translate(28 505)"><rect width="330" height="46" rx="4" fill="#0c2630" stroke="#65e6ff" stroke-width="2"/><text x="35" y="20" fill="#fff" font-size="14" font-weight="700">EMUBOX</text><text x="35" y="36" fill="#65e6ff" font-size="9">BREAKBEAT / ANDROID BOX</text></g><g transform="translate(28 558)"><rect width="330" height="46" rx="4" fill="#201436" stroke="#b9a6ff" stroke-width="2"/><text x="35" y="20" fill="#fff" font-size="13" font-weight="700">DRIVER &amp; TOOLS</text><text x="35" y="36" fill="#c6b8ff" font-size="9">SYNTH / UPSTREAM WATCH</text></g></g>
+<!-- collab bar -->
+<rect x="28" y="616" width="330" height="22" rx="4" fill="#050713" stroke="#fff" stroke-width="1"/><text x="38" y="631" fill="#fff" font-family="monospace" font-size="8">OPEN TO CO-OP · PR / ISSUE / DISCUSSION</text><rect x="326" y="622" width="8" height="8" fill="#ffd478"><animate attributeName="opacity" values="1;.2;1" dur=".7s" repeatCount="indefinite"/></rect>
+<rect x="18" y="24" width="354" height="622" fill="url(#scan)" opacity=".45"/>
+</g>
+<!-- controls -->
+<rect x="22" y="650" width="346" height="38" rx="6" fill="#140e26" stroke="#f5bd61"/><text x="195" y="676" text-anchor="middle" fill="#ffe6a8" font-family="monospace" font-size="18" font-weight="900" letter-spacing="2">DROP THE BEAT</text>
+<g transform="translate(54 713)"><circle r="21" fill="#080b14" stroke="#757ba4" stroke-width="2"/><circle r="14" fill="#171c32" stroke="#ffd478" stroke-width="2"/><path d="M-8 0H8M0-8V8" stroke="#ff5274" stroke-width="5" stroke-linecap="round"/></g><g transform="translate(300 713)" font-family="monospace" font-size="9" font-weight="700" text-anchor="middle"><circle cx="0" cy="0" r="15" fill="#35142c" stroke="#ff5274" stroke-width="2"/><text y="4" fill="#fff">START</text><circle cx="-50" cy="0" r="14" fill="#132b31" stroke="#73ffd2" stroke-width="2"/><text x="-50" y="4" fill="#73ffd2">PR</text><circle cx="50" cy="0" r="14" fill="#2b2140" stroke="#b9a6ff" stroke-width="2"/><text x="50" y="4" fill="#c6b8ff">ISSUE</text></g><text x="195" y="761" text-anchor="middle" fill="#8388ab" font-family="monospace" font-size="8">github.com/mihsian77</text>
+</svg>
