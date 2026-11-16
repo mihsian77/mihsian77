@@ -1,32 +1,47 @@
 <p align="center">
-  <img src="assets/profile-header.png" alt="moon279 — 独立开发者 · 安卓模拟器生态" width="880">
+  <picture>
+    <source media="(max-width: 640px)" srcset="assets/profile-arcade-mobile.gif">
+    <img src="assets/profile-arcade.gif" alt="moon279 的主页：一台正在运行的 MOON BEAT 霓虹街机，三条项目曲目与协作入口" width="100%">
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/-C-555555?style=flat-square&logo=c&logoColor=white" alt="C">
-  <img src="https://img.shields.io/badge/-Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin">
-  <img src="https://img.shields.io/badge/-Java-E76F00?style=flat-square&logo=openjdk&logoColor=white" alt="Java">
-  <img src="https://img.shields.io/badge/-Python-3572A5?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/-Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Shell">
-  <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
+  <a href="https://github.com/mihsian77/winlator-pulse"><img src="https://img.shields.io/badge/WINLATOR_PULSE-▶_PLAY-251139?style=for-the-badge&labelColor=0D1020" alt="Winlator Pulse"></a>
+  <a href="https://github.com/mihsian77/Emubox"><img src="https://img.shields.io/badge/EMUBOX-▶_PLAY-0C2630?style=for-the-badge&labelColor=0D1020" alt="Emubox"></a>
+  <a href="#driver--tools--上游观察"><img src="https://img.shields.io/badge/DRIVER_%26_TOOLS-READ-201436?style=for-the-badge&labelColor=0D1020" alt="Driver & Tools"></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/-Android-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android">
-  <img src="https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
-  <img src="https://img.shields.io/badge/-Wine-A91D2F?style=flat-square" alt="Wine">
-  <img src="https://img.shields.io/badge/-Winlator-7B5EA7?style=flat-square" alt="Winlator">
-  <img src="https://img.shields.io/badge/-Vulkan-AC162C?style=flat-square&logo=vulkan&logoColor=white" alt="Vulkan">
+  <sub>业余时间在折腾 Winlator / Wine 安卓生态：多版本容器、驱动、汉化和工具链。能复现的问题优先看，欢迎 PR、Issue 或交流。</sub>
+</p>
+
+## Driver & Tools / 上游观察
+
+这里不是“又一个大而全的工具箱”，而是把上游驱动、运行库和工具的变化看明白，留下能对照、能复现的记录。重点在 Winlator / Wine 安卓生态里真正会用到的部分：驱动、DXVK、Turnip、Box64、汉化和构建工具链。
+
+看得多，写得慢。没验证过的东西不往上堆。
+
+## Open to co-op
+
+- **兼容性问题**：带上设备、驱动、容器配置和日志，能复现就先从日志看起。
+- **驱动 / 汉化 / 工具链**：有明确的参考项目或上游提交，欢迎直接开 Issue。
+- **一起整理上游变化**：比起泛泛的“求整合”，更欢迎具体到某个组件、某次变更的讨论。
+
+<p align="center">
+  <a href="https://github.com/mihsian77/Emubox/issues">Issue</a>
+  ·
+  <a href="https://github.com/mihsian77/Emubox/pulls">Pull Request</a>
+  ·
+  <a href="https://github.com/mihsian77/Emubox">Emubox</a>
+</p>
+
+## Loadout
+
+<p align="center">
+  <sub><code>C · Kotlin · Java · Python · Shell · JavaScript</code><br>
+  <code>Android · Linux · Wine · Vulkan · Android NDK · GitHub Actions</code></sub>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
-  <img src="https://img.shields.io/badge/-CI%2FCD-0D1430?style=flat-square" alt="CI/CD">
-  <img src="https://img.shields.io/badge/-Android%20NDK-0D1430?style=flat-square&logo=android&logoColor=white" alt="Android NDK">
-</p>
-
-<p align="center">
-  <b>Open to collaboration</b> — Winlator / Wine 安卓生态的驱动、汉化与工具链方向，欢迎 PR、Issue 与交流。<br>
-  <a href="https://github.com/mihsian77/Emubox">github.com/mihsian77/Emubox</a>
+  <sub>MOON BEAT · github.com/mihsian77</sub>
 </p>
